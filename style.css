@@ -1,0 +1,242 @@
+
+/*
+Theme Name: InteractiveAgency
+Theme URI: https://wordpress.org/themes/InteractiveAgency
+Author: Warren Maunier
+Author URI: https://wordpress.org/
+Description: Template du site crée par Olivier Prieur adapté pour l'utilisation sur WordPress
+Requires at least: 5.0
+Tested up to: 5.4
+Requires PHP: 7.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: interactiveagency
+
+*/
+
+
+/* ----- MAIN ----- */
+body {
+  background-color: #002;
+}
+
+.badge-contact{
+  border: solid 1px;
+  border-radius: 30px;
+  background-color: rgba(255, 255, 128, 0);
+}
+
+.text-small {
+  font-size: 11px;
+}
+
+.text-very-small {
+  font-size: 12px;
+}
+
+.text-tiny {
+  font-size: 10px;
+  color: #D0D0D0;
+}
+
+.lead-text1 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.lead-text2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* ----- HEAD ----- */
+.bg1 {
+  background-image: url("img/Header/Layer10.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-size: cover;
+}
+
+.bg1-height {
+  height: 630px;
+}
+
+.bg1-space {
+  padding-left: 140px;
+  padding-right: 140px;
+}
+
+.clear1 {
+  margin-top: 50px;
+}
+
+.clear2 {
+  margin-top: 100px;
+}
+
+.clear3 {
+  margin-top: 230px;
+}
+
+/* ----- Design/Code ----- */
+.myButton {
+  box-shadow: inset 0px 1px 0px 0px #bb85f2;
+  background: linear-gradient(to left, #c123de 5%, #570dbd 100%);
+  background-color: #c123de;
+  border-radius: 35px;
+  border: 1px solid #a511c0;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 0.7vw;
+  padding: 5px 35px;
+  text-decoration: none;
+  text-shadow: -1px 1px 0px #33083b;
+}
+
+.myButton:hover {
+  background: linear-gradient(to left, #570dbd 5%, #c123de 100%);
+  background-color: #570dbd;
+}
+
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
+
+.title1 {
+  font-size: 28px;
+}
+
+#bestdesign {
+  background-image: url("img/Code/Layer8.jpeg");
+  background-size: cover;
+  font-size: 10px;
+}
+
+#bestdesign .paddingbestdesign {
+  padding: 90px 40px 90px 175px;
+  max-height:40rem;
+}
+
+#bestcode {
+  background-image: url("img/Code/Layer7.jpeg");
+  background-size: cover;
+  font-size: 10px;
+}
+
+#bestcode .paddingbestcode {
+  padding: 90px 175px 90px 43px;
+  max-height:40rem;
+}
+
+/* ----- What we do ----- */
+#whatwedo {
+  background-color: white;
+}
+
+#whatwedo .paddingwhatwedoleft {
+  padding: 10px 40px 20px 175px;
+}
+
+#whatwedo .paddingwhatwedoright {
+  padding: 10px 175px 20px 43px;
+}
+
+/* ----- Portfolio ----- */
+.portfolio1 {
+  max-width: 100% !important;
+  height:auto !important;
+  background-image: url("img/Portfolio/Layer12.jpeg");
+}
+
+#portfolio-darken {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)),
+    url("img/Portfolio/Layer14.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-size: cover;
+}
+
+.porfolio-resp-font1{
+  font-size: 1.2vw;
+}
+
+.porfolio-resp-font2{
+  font-size: 0.7vw;
+}
+
+/* ----- About us ----- */
+#aboutus {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)),
+    url("img/About/Layer15.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+
+#aboutus img {
+  max-width: 75px;
+}
+
+.photos {
+  padding-left: 210px;
+  padding-right: 210px;
+}
+
+/* ----- Map ----- */
+#map {
+  background-image: url("img/Map/map.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+#location{
+  background: -webkit-linear-gradient(#c123de, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* ------ Form ------- */
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  border : solid 2px black;
+  max-width: 740px;
+  width: 100%;
+  margin:auto;
+  margin-bottom:3rem;
+  padding-bottom:1rem;
+}
+
+#forname {
+  margin-bottom:1rem;
+}
+
+#name {
+  margin-bottom:1rem;
+}
+
+#email {
+  margin-bottom:1rem;
+}
+
+/* ----- Footer ----- */
+#footer {
+  background-color: white;
+  padding-top: 50px;
+  padding-bottom: 150px;
+}
