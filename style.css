@@ -210,6 +210,24 @@ body {
 
 /* ------ Form ------- */
 
+.newsletter {
+  align-items: center;
+  display:flex;
+  flex-direction: column;
+  background-image: url('img/Newsletter/banner2.jpg');
+  background-size: cover;
+  opacity:0.8;
+}
+
+.newsletter p  {
+  color:
+}
+
+.overlay-news{
+  background-color: black;
+  opacity: 0.5;
+}
+
 form {
   display: flex;
   flex-direction: column;
@@ -220,18 +238,6 @@ form {
   margin:auto;
   margin-bottom:3rem;
   padding-bottom:1rem;
-}
-
-#forname {
-  margin-bottom:1rem;
-}
-
-#name {
-  margin-bottom:1rem;
-}
-
-#email {
-  margin-bottom:1rem;
 }
 
 /* ----- Footer ----- */

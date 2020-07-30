@@ -241,7 +241,7 @@
 <?php
 include "insert.php";
  ?>
-  <form class="Newsletter" action="insert.php" method="post">
+  <!-- <form class="Newsletter" action="#" method="post">
     <h5 id="identity"> Identité </h5>
     <input id="forname" name="forname" type="text" placeholder="Prénom(s)" style="width:12rem; height:auto;" required></label>
     <input id="name" name="name" type="text" placeholder="Nom" style="width:12rem; height:auto;" required></label>
@@ -249,8 +249,26 @@ include "insert.php";
   <h5 id="email"> Email </h5>
   <input id="email" name="email" type="email" placeholder="Veuillez rentrer une adresse e-mail valide" style="width:24rem; height:auto;" required></label>
   <input name="submit" type="submit" value="Envoyer">
-  </form>
+  </form> -->
 
+
+  <div class="newsletter">
+    <div class="overlay-news"></div>
+      <h3> Inscrivez vous à notre newsletter </h3>
+      <p> Pour pouvoir suivre toutes les dernières actualités d'InteractiveAgency, abonnez vous à notre newsletter.
+  </div>
+
+  <div class="tnp tnp-subscription">
+  <form method="post" action="http://localhost/wmaunier/wordpress/?na=s" onsubmit="return newsletter_check(this)">
+
+  <input type="hidden" name="nlang" value="">
+  <div class="tnp-field tnp-field-firstname"><label>Prénom(s)</label><input class="tnp-firstname" type="text" name="nn" required></div>
+  <div class="tnp-field tnp-field-lastname"><label>Nom </label><input class="tnp-lastname" type="text" name="ns" required></div>
+  <div class="tnp-field tnp-field-email"><label>Email</label><input class="tnp-email" type="email" name="ne" required></div>
+  <div class="tnp-field tnp-privacy-field"><label><input type="checkbox" name="ny" required class="tnp-privacy"> En continuant, vous acceptez la politique de confidentialité</label></div><div class="tnp-field tnp-field-button"><input class="tnp-submit" type="submit" value="S'inscrire" >
+  </div>
+  </form>
+  </div>
 
 
 
